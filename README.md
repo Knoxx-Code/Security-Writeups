@@ -7,28 +7,28 @@ Full PDF reports (with screenshots and terminal captures) are linked from each f
 
 | Writeup | Target Type | Highlights |
 |---|---|---|
-| [Web & API Pentest — Event Management Platform](./pentest-report-web-api) | Private client, black-box | 9 findings (3 Critical, 4 High, 2 Medium) — mass assignment, privilege escalation, payment bypass, IDOR |
+| [Web & API Pentest - Event Management & Ticketing Platform](./pentest-report-web-api) | Private client, black-box | 9 findings (3 Critical, 4 High, 2 Medium) — mass assignment, privilege escalation, payment bypass, IDOR |
 
 ## Web Pentesting
 
 | Writeup | Target | Vulnerability Class |
 |---|---|---|
-| [BookStore — LFI to Root](./web-pentesting/thm-bookstore) | Flask/Werkzeug REST API | Local File Inclusion → Werkzeug Debug PIN → RCE → Binary Reversing (Ghidra) |
-| [CMSpit — Cockpit CMS](./web-pentesting/thm-cmspit) | Cockpit CMS 0.11.1 | CVE-2020-35846 (User Enum/Auth Bypass) → File Upload RCE → CVE-2021-22204 (exiftool privesc) |
-| [Simple CTF — CMS Made Simple](./web-pentesting/thm-simple-ctf) | CMS Made Simple 2.2.8 | CVE-2019-9053 (SQLi) → Credential Cracking → GTFOBins privesc (vim) |
-| [VulnWeb — Multi-Subdomain Assessment](./web-pentesting/vulnweb) | 5 subdomains, mixed stacks | SQLi, Stored/Reflected/DOM XSS, IDOR, Broken Auth, Outdated Platforms |
+| [BookStore - LFI to Root](./web-pentesting/thm-bookstore) | Flask/Werkzeug REST API | Local File Inclusion → Werkzeug Debug PIN → RCE → Binary Reversing (Ghidra) |
+| [CMSpit - Cockpit CMS](./web-pentesting/thm-cmspit) | Cockpit CMS 0.11.1 | CVE-2020-35846 (User Enum/Auth Bypass) → File Upload RCE → CVE-2021-22204 (exiftool privesc) |
+| [Simple CTF - CMS Made Simple](./web-pentesting/thm-simple-ctf) | CMS Made Simple 2.2.8 | CVE-2019-9053 (SQLi) → Credential Cracking → GTFOBins privesc (vim) |
+| [VulnWeb - Multi-Subdomain Assessment](./web-pentesting/vulnweb) | 5 subdomains, mixed stacks | SQLi, Stored/Reflected/DOM XSS, IDOR, Broken Auth, Outdated Platforms |
 
 ## Cloud Security
 
 | Writeup | Target | Vulnerability Class |
 |---|---|---|
-| [Flaws.Cloud — AWS Misconfigurations](./cloud-security/aws-flaws-cloud) | AWS (S3, EC2, IAM) | Public S3 buckets, exposed .git credentials, EC2 snapshot abuse, SSRF via metadata service |
+| [Flaws.Cloud - AWS Misconfigurations](./cloud-security/aws-flaws-cloud) | AWS (S3, EC2, IAM) | Public S3 buckets, exposed .git credentials, EC2 snapshot abuse, SSRF via metadata service |
 
 ## Mobile Security
 
 | Writeup | Target | Vulnerability Class |
 |---|---|---|
-| [BeetleBug CTF — Android Pentesting](./mobile-security/beetlebug-ctf-android) | Android APK | Hardcoded secrets, insecure storage, WebView misconfig, SQLi, exported components, biometric bypass |
+| [BeetleBug CTF - Android Pentesting](./mobile-security/beetlebug-ctf-android) | Android APK | Hardcoded secrets, insecure storage, WebView misconfig, SQLi, exported components, biometric bypass |
 
 ## Tools I Use
 
