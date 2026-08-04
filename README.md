@@ -15,7 +15,7 @@ Full PDF reports (with screenshots and terminal captures) are linked from each f
 |---|---|---|
 | [BookStore - LFI to Root](./web-pentesting/thm-bookstore) | Flask/Werkzeug REST API | Local File Inclusion → Werkzeug Debug PIN → RCE → Binary Reversing (Ghidra) |
 | [CMSpit - Cockpit CMS](./web-pentesting/thm-cmspit) | Cockpit CMS 0.11.1 | CVE-2020-35846 (User Enum/Auth Bypass) → File Upload RCE → CVE-2021-22204 (exiftool privesc) |
-| [Simple CTF - CMS Made Simple](./web-pentesting/thm-simple-ctf) | CMS Made Simple 2.2.8 | CVE-2019-9053 (SQLi) → Credential Cracking → GTFOBins privesc (vim) |
+| [Simple CTF - CMS Made Simple](./web-pentesting/thm-simplectf) | CMS Made Simple 2.2.8 | CVE-2019-9053 (SQLi) → Credential Cracking → GTFOBins privesc (vim) |
 | [VulnWeb - Multi-Subdomain Assessment](./web-pentesting/vulnweb) | 5 subdomains, mixed stacks | SQLi, Stored/Reflected/DOM XSS, IDOR, Broken Auth, Outdated Platforms |
 
 ## Cloud Security
