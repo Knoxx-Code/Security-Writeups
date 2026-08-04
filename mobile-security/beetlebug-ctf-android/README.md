@@ -1,7 +1,7 @@
 # BeetleBug CTF - Android Mobile Penetration Testing
 
 **Category:** Mobile Security (Android)
-**Full writeup (PDF):** [Winston_BeetleBug_CTF.pdf](./Winston_BeetleBug_CTF.pdf)
+**Full writeup (PDF):** [BeetleBug_CTF.pdf](./BeetleBug_CTF.pdf)
 
 ## Overview
 
@@ -43,4 +43,4 @@ in the extracted layout XML, demonstrating how client-side gating can be bypasse
 - Never persist sensitive data (credentials, card numbers) in Shared Preferences, external storage, or logs without encryption.
 - Client-side checks (button enablement, deep-link gating) are not security boundaries — they must be enforced server-side.
 
-See [Winston_BeetleBug_CTF.pdf](./Winston_BeetleBug_CTF.pdf) for full screenshots of each captured flag and the Jadx/apktool output.
+See [BeetleBug_CTF.pdf](./BeetleBug_CTF.pdf) for full screenshots of each captured flag and the Jadx/apktool output.
