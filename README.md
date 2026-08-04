@@ -7,7 +7,7 @@ Full PDF reports (with screenshots and terminal captures) are linked from each f
 
 | Writeup | Target Type | Highlights |
 |---|---|---|
-| [Web & API Pentest - Event Management & Ticketing Platform](./real-world-engagements/pentest-report-web-api-event-platform) | Private client, black-box | 9 findings (3 Critical, 4 High, 2 Medium) — mass assignment, privilege escalation, payment bypass, IDOR |
+| [Web & API Pentest - Event Management & Ticketing Platform](./real-world-engagements/pentest-web-api-event-platform) | Private client, black-box | 9 findings (3 Critical, 4 High, 2 Medium) — mass assignment, privilege escalation, payment bypass, IDOR |
 
 ## Web Pentesting
 
