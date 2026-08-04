@@ -7,16 +7,16 @@ Full PDF reports (with screenshots and terminal captures) are linked from each f
 
 | Writeup | Target Type | Highlights |
 |---|---|---|
-| [Web & API Pentest - Event Management & Ticketing Platform](./pentest-report-web-api) | Private client, black-box | 9 findings (3 Critical, 4 High, 2 Medium) — mass assignment, privilege escalation, payment bypass, IDOR |
+| [Web & API Pentest - Event Management & Ticketing Platform](./real-world-engagements/pentest-report-web-api-event-platform) | Private client, black-box | 9 findings (3 Critical, 4 High, 2 Medium) — mass assignment, privilege escalation, payment bypass, IDOR |
 
 ## Web Pentesting
 
 | Writeup | Target | Vulnerability Class |
 |---|---|---|
-| [BookStore - LFI to Root](./web-pentesting/thm-bookstore) | Flask/Werkzeug REST API | Local File Inclusion → Werkzeug Debug PIN → RCE → Binary Reversing (Ghidra) |
-| [CMSpit - Cockpit CMS](./web-pentesting/thm-cmspit) | Cockpit CMS 0.11.1 | CVE-2020-35846 (User Enum/Auth Bypass) → File Upload RCE → CVE-2021-22204 (exiftool privesc) |
-| [Simple CTF - CMS Made Simple](./web-pentesting/thm-simplectf) | CMS Made Simple 2.2.8 | CVE-2019-9053 (SQLi) → Credential Cracking → GTFOBins privesc (vim) |
-| [VulnWeb - Multi-Subdomain Assessment](./web-pentesting/vulnweb) | 5 subdomains, mixed stacks | SQLi, Stored/Reflected/DOM XSS, IDOR, Broken Auth, Outdated Platforms |
+| [BookStore - LFI to Root](./web-security/thm-bookstore) | Flask/Werkzeug REST API | Local File Inclusion → Werkzeug Debug PIN → RCE → Binary Reversing (Ghidra) |
+| [CMSpit - Cockpit CMS](./web-security/thm-cmspit) | Cockpit CMS 0.11.1 | CVE-2020-35846 (User Enum/Auth Bypass) → File Upload RCE → CVE-2021-22204 (exiftool privesc) |
+| [Simple CTF - CMS Made Simple](./web-security/thm-simplectf) | CMS Made Simple 2.2.8 | CVE-2019-9053 (SQLi) → Credential Cracking → GTFOBins privesc (vim) |
+| [VulnWeb - Multi-Subdomain Assessment](./web-security/vulnweb) | 5 subdomains, mixed stacks | SQLi, Stored/Reflected/DOM XSS, IDOR, Broken Auth, Outdated Platforms |
 
 ## Cloud Security
 
