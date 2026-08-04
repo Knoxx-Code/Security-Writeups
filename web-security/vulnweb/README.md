@@ -3,7 +3,7 @@
 **Category:** Web Application Penetration Test (Practice Environment)
 **Full report (PDF):** [VulnWeb_Pentesting_Report.pdf](./VulnWeb_Pentesting_Report.pdf)
 
-> **Note:** `vulnweb.com` is Acunetix's intentionally vulnerable test environment. This writeup is included to demonstrate breadth of methodology and reporting quality across multiple tech stacks in a single engagement — not a real-world compromise. It sits in a different tier than the [private client pentest](../../pentest-report-web-api), which was a live authorised engagement.
+> **Note:** `vulnweb.com` is Acunetix's intentionally vulnerable test environment. This writeup is included to demonstrate breadth of methodology and reporting quality across multiple tech stacks in a single engagement.
 
 ## Overview
 
